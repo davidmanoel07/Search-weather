@@ -31,8 +31,7 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
         } else {
             document.querySelector("#weather").classList.remove('show');
             showAlert(`
-                Não foi possível localizar
-                <img src="assets/imagem/undraw_workspace_s6wf.png" />
+                Não foi possível localizar a Cidade!
             `);
         }
     } catch (error) {
